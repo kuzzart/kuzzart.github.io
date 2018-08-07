@@ -9,7 +9,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --host 0.0.0.0",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "lint": "eslint --ignore-path .gitignore --ignore-pattern \"!**/.*\" .",
-    "deploy": "yarn build && gh-pages -d dist"
+    "deploy": "yarn build && gh-pages -d dist -b master"
   },
   "dependencies": {
     "normalize.css": "^7.0.0"
