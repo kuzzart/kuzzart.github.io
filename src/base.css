@@ -25,13 +25,13 @@ b, strong, a, h1, h2 {
 }
 
 a {
-  color: : #1fda9a;
+  color: #1fda9a;
   text-decoration: none;
 }
 
 ::selection {
   color: white;
-  background: : #1fda9a;
+  background: #1fda9a;
 }
 
 .wrapper {
@@ -56,7 +56,7 @@ h2 {
 
 h2:before {
   content: '';
-  background: : #1fda9a;
+  background: #1fda9a;
   width: 1rem;
   display: inline-block;
   height: 3rem;
