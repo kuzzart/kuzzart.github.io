@@ -1,0 +1,70 @@
+@import '../~normalize.css';
+
+html {
+  font-size: 10px;
+  font-family: 'Lora', serif;
+  overflow-y: scroll;
+  background: #fff;
+  color: #222;
+
+  overflow: hidden;
+}
+
+body {
+  perspective: 30px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  font-size: 1.7rem;
+}
+
+b, strong, a, h1, h2 {
+  font-weight: bold;
+}
+
+a {
+  color: #D96459;
+  text-decoration: none;
+}
+
+::selection {
+  color: white;
+  background: #D96459;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 94rem;
+  padding-left: 5rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+h1 {
+  transform: translateZ(3px);
+  margin-top: 10rem;
+}
+
+h2 {
+  transform: translateZ(2px);
+  margin-top: 7rem;
+  margin-left: -2rem;
+}
+
+h2:before {
+  content: '';
+  background: #D96459;
+  width: 1rem;
+  display: inline-block;
+  height: 3rem;
+  margin-right: 1rem;
+  margin-bottom: -1px;
+}
+
+h3 {
+  /*transform: translateZ(1px);*/
+  margin-top: 5rem;
+}
