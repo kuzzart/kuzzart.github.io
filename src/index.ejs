@@ -9,5 +9,12 @@
   </head>
   <body>
     <div class="wrapper"><%= require('../README.md') %></div>
+
+    <div class="wrapper portfolio">
+      <h2>Работы</h2>
+      <%= require('../portfolio').map(imageUrl =>
+        `<img src="${require('../portfolio/' + imageUrl)}" />`
+      ).join('') %>
+    </div>
   </body>
 </html>
