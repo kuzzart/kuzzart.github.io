@@ -11,8 +11,8 @@ html {
 }
 
 body {
-  perspective: 30px;
-  transform-style: preserve-3d;
+  /*perspective: 30px;*/
+  /*transform-style: preserve-3d;*/
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -67,4 +67,27 @@ h2:before {
 h3 {
   /*transform: translateZ(1px);*/
   margin-top: 5rem;
+}
+
+.dcbox {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0;
+  margin-bottom: 20rem;
+}
+
+.dcbox a {
+  width: 20%;
+  min-width: 15rem;
+  margin: 1rem 1rem 0 0;
+  opacity: .5;
+  transition: .3s;
+}
+
+.dcbox a:hover {
+  opacity: 1;
+}
+
+.dcbox a img {
+  width: 100%;
 }

@@ -12,9 +12,15 @@
 
     <div class="wrapper portfolio">
       <h2>Работы</h2>
-      <%= require('../portfolio').map(imageUrl =>
-        `<img src="${require('../portfolio/' + imageUrl)}" />`
-      ).join('') %>
+      <div class="dcbox">
+        <%= require('../portfolio').map(imageUrl => `
+          <a href="${require('../portfolio/' + imageUrl)}">
+            <img src="${require('../portfolio/' + imageUrl)}" />
+          </a>
+        `).join('') %>
+      </div>
     </div>
+
+    <script src="./dcbox.min.js"></script>
   </body>
 </html>
