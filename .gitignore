@@ -10,3 +10,5 @@ yarn-error.log
 *.ntvs*
 *.njsproj
 *.sln
+
+public/dcbox.min.js
