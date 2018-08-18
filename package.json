@@ -14,6 +14,7 @@
   "dependencies": {
     "normalize.css": "^7.0.0"
   },
+  "eslintIgnore": ["public/dcbox.min.js"],
   "browserslist": [
     "> 1%",
     "last 2 versions",
